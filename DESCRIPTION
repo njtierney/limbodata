@@ -1,0 +1,22 @@
+Package: limbodata
+Title: Create data for limbo project
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nicholas",
+           family = "Tierney",
+           role = c("aut", "cre"),
+           email = "nicholas.tierney@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0003-1460-8722"))
+Description: Create data for limbo project.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    clock,
+    dplyr,
+    magrittr,
+    malariaAtlas,
+    tibble

@@ -1,0 +1,27 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# limbodata
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of limbodata is to ...
+
+```{r setup}
+library(limbodata)
+
+africa_data  <- create_africa_data()
+africa_data
+```
+
